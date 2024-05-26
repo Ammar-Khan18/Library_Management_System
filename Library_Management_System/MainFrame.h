@@ -3,10 +3,12 @@
 
 class MainFrame : public wxFrame {
 private:
+
 	wxPanel* panel;
+	wxStaticText* headlineText;
 	
 	void CreateControls();
-
+	void SetupSizers();
 
 
 public:

@@ -7,6 +7,7 @@ bool App::OnInit() {
 	MainFrame* mainframe = new MainFrame("Library Management System");
 	mainframe->SetClientSize(1000, 700);
 	mainframe->Center();
+	mainframe->SetBackgroundColour(wxColor("GRAY"));
 	mainframe->Show();
 	return true;
 }
