@@ -1,4 +1,4 @@
-#include "Library.h"
+#include "Book.h"
 #include <string>
 #include <vector>
 #include <filesystem>
@@ -6,10 +6,10 @@
 #include <fstream>
 using namespace std;
 
-void saveDataToFile(const vector<Library>& tasks, const string& filename) {
+void saveDataToFile(const vector<Book>& tasks, const string& filename) {
 	ofstream ostream(filename);
 	ostream << tasks.size();
-	for (const Library& task : tasks) {
+	for (const Book& task : tasks) {
 		/*
 		string description = task.description;
 		replace(description.begin(), description.end(), ' ', '_');
@@ -18,13 +18,13 @@ void saveDataToFile(const vector<Library>& tasks, const string& filename) {
 	}
 }
 
-vector<Library> loadDataFromFile(const string& filename) {
+vector<Book> loadDataFromFile(const string& filename) {
 	/*
 	if (!filesystem::exists(filename)) {
 		return vector<Library>();
 	}
 	*/
-	vector<Library> tasks;
+	vector<Book> tasks;
 	ifstream istream(filename);
 	int n;
 	istream >> n;

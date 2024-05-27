@@ -21,7 +21,7 @@
     <ClInclude Include="MainFrame.h">
       <Filter>Header Files</Filter>
     </ClInclude>
-    <ClInclude Include="Library.h">
+    <ClInclude Include="Book.h">
       <Filter>Header Files</Filter>
     </ClInclude>
   </ItemGroup>
@@ -32,7 +32,7 @@
     <ClCompile Include="MainFrame.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="Library.cpp">
+    <ClCompile Include="Book.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>
