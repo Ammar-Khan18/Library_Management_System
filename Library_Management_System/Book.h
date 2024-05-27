@@ -2,11 +2,18 @@
 #include<vector>
 using namespace std;
 struct Book {
-	int isbn;
+	string isbn;
 	string bookName;
 	string authorName;
 	float price;
-	bool isAvailable;
+	string isAvailable;
+	Book(string i, string b, string a, float p, string is) {
+		isbn = i;
+		bookName = b;
+		authorName = a;
+		price = p;
+		isAvailable = is;
+	}
 };
 
 void saveDataToFile(const vector<Book>& tasks, const string& filename);
