@@ -1,0 +1,9 @@
+8
+97800609 To_Kill_a_Mockingbird Harper_Lee 20.0 True
+97805532 Pride_and_Prejudice Jane_Austen 40.0 False
+97804515 1984 George_Orwell 30.0 True
+97807432 The_Great_Gatsby F_Scott_Fitzgerald 35.0 True
+97803167 The_Catcher_in_the_Rye J_D_Salinger 20.0 True
+97805479 The_Hobbit J_R_R_Tolkien 15.0 False
+97804390 The_Hunger_Games Suzanne_Collins 30.0 False
+97815519 Harry_Potter JK_Rowling 15.0 False

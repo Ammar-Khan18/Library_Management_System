@@ -2,7 +2,7 @@
 #include<wx/wx.h>
 #include<wx/listctrl.h>
 #include<string>
-#include"Book.h"
+#include "User.h"
 using namespace std;
 
 class MainFrame : public wxFrame {
@@ -13,6 +13,11 @@ private:
 
 	wxButton* sortButton;
 	wxButton* saveButton;
+	wxButton* addBook;
+	wxButton* removeBook;
+	wxButton* loanToUser;
+
+	wxStaticText* userInfo;
 	
 	wxListView* listView;
 
